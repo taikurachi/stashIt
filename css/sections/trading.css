@@ -1,0 +1,20 @@
+.trading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trading {
+  position: relative;
+  left: 40px;
+}
+
+.tradingText__container {
+  transform: translateY(-30px);
+}
+.tradingIntro__text {
+  margin-left: 5px;
+}
+.tradingImg {
+  transform: translateX(-40px);
+}

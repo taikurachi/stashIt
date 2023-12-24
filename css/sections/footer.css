@@ -1,0 +1,149 @@
+.footer {
+  height: 300px;
+  /* font-size: 0.7rem; */
+  margin-top: 100px;
+  /* background-color: beige; */
+  font-size: 1.2rem;
+  border-top: 2px solid var(--primary-color);
+  letter-spacing: 2px;
+}
+
+.footer__container {
+  padding: 1rem 3rem 5rem 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  margin: 3rem 5rem 3rem 5rem;
+}
+
+.topSection {
+  display: flex;
+  gap: 4rem;
+}
+.company__container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 0.5rem;
+  /* font-size: 3rem; */
+}
+
+.getInTouch {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 0.5rem;
+  white-space: nowrap;
+}
+
+.underline.smaller {
+  width: 100%;
+  height: 3px;
+  background: var(--primary-color);
+  top: 54px;
+  left: 0;
+  position: absolute;
+  /* margin: 10px; */
+}
+.underline {
+  width: 100%;
+  height: 2px;
+  background: var(--primary-color);
+  top: 50px;
+  left: 0;
+  position: absolute;
+  /* margin-bottom: 30px; */
+}
+
+.logo__icons {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.icons {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright {
+  margin-top: -3rem;
+}
+
+.foot.logo {
+  padding: 0;
+}
+
+.fab {
+  font-size: 2.5rem;
+}
+
+.p__container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 5px;
+  /* font-size: 0.7rem; */
+}
+
+.smallLogo__container {
+  width: 140px;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.company__container h1 {
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+}
+
+.getInTouch h1 {
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+}
+
+.p__container a {
+  /* border: 2px solid red; */
+  width: fit-content;
+  white-space: nowrap;
+}
+.p__container a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  /* width: 10px; */
+  height: 2px;
+  background: var(--primary-color);
+  width: 0;
+  transition: width 0.25s ease;
+}
+
+.p__container a:hover::before {
+  width: 100%;
+  left: 0;
+  right: auto;
+}
+
+.copyright a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  /* width: 10px; */
+  height: 1px;
+  background: var(--primary-color);
+  width: 0;
+  transition: width 0.25s ease;
+}
+
+.copyright a:hover::before {
+  width: 100%;
+  left: 0;
+  right: auto;
+}

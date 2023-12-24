@@ -1,0 +1,36 @@
+.consign {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 10rem 0;
+}
+
+.consignImg__container {
+  position: relative;
+}
+
+.consignImg {
+  /* width: 25vw; */
+  /* position: absolute; */
+  right: 50px;
+  width: 80%;
+  min-width: 250px;
+
+  /* top: 50px; */
+  z-index: -1;
+}
+
+.consignIntroText {
+  position: relative;
+  right: -4px;
+}
+
+.consignText__container {
+  transform: translateY(-30px);
+  margin-left: 30px;
+}
+
+.img__container .content__images.mobileConsignImg {
+  width: 250px;
+}

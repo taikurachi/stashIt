@@ -1,0 +1,148 @@
+@import url("sections/navbar.css");
+@import url("sections/hero.css");
+@import url("sections/storage.css");
+@import url("sections/trading.css");
+@import url("sections/consign.css");
+@import url("sections/marketplace.css");
+@import url("sections/cleanRestore.css");
+@import url("sections/newsletter.css");
+@import url("sections/footer.css");
+@import url("sections/media-queries.css");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+  color: #16181d;
+  text-decoration: none;
+}
+
+:root {
+  --primary-color: #16181d;
+  --gap-size: 2.7rem;
+  --nav-gap: calc(100vw - 23%);
+}
+
+a {
+  position: relative;
+}
+
+.overflow {
+  overflow: hidden;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  letter-spacing: 1.5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.content__container {
+  margin: 3rem 9rem 3rem 9rem;
+  gap: 2rem;
+  width: 70%;
+}
+
+.verticalLine {
+  width: 2px;
+  height: 340px;
+  transform: rotate(180deg);
+  background: var(--primary-color);
+  z-index: 5;
+}
+
+.contentText__container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  letter-spacing: 1.5px;
+}
+
+.flexItem {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+.section__header {
+  font-size: calc(7vw + 3px);
+  font-weight: 700;
+  letter-spacing: 10px;
+}
+
+.service__text {
+  margin-top: 2px;
+}
+
+button.classic {
+  background: white;
+  outline: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  border: none;
+  border-radius: 3rem;
+  cursor: pointer;
+  padding: 20px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  font-size: 1.4rem;
+  overflow: hidden;
+}
+
+.classic::after {
+  background-color: var(--primary-color);
+  border-radius: 3rem;
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(-100%, 0) rotate(10deg);
+  transform-origin: top left;
+  transition: 0.2s transform ease-out;
+  will-change: transform;
+  z-index: -1;
+  opacity: 0;
+}
+.classic:hover::after {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+.classic:hover {
+  outline: 2px solid transparent;
+  color: white;
+  will-change: transform;
+}
+
+.content__btn .biggerBtn:hover {
+  color: white;
+}
+
+.content__btn {
+  margin-top: 25px;
+}
+
+.intro__text {
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+.content__images {
+  width: 95%;
+}
+
+.mobileContentImgContainer {
+  display: none;
+}
+
+.char {
+  transform: translateY(110px);
+  transition: transform 0.5s;
+  opacity: 0;
+}

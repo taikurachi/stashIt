@@ -1,0 +1,11 @@
+.storage {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.storageText__container {
+  transform: translate(10px, -15px);
+}

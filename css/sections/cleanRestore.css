@@ -1,0 +1,149 @@
+.cleanRestorePointers {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1.6rem;
+}
+
+.cleanImg {
+  /* width: 100%; */
+  width: 300px;
+  position: absolute;
+}
+
+.restoreImg {
+  width: 450px;
+  position: absolute;
+  transform: translate(-50px);
+  /* display: flex; */
+  /* top: 00px; */
+  /* top: -200px; */
+}
+
+.restoreIntro__text {
+  width: 450px;
+}
+.cleanRestoreFlexItem {
+  width: 500px;
+  /* background-color: beige; */
+  height: 425px;
+}
+
+.comingSoon {
+  transform: translateY(10px);
+}
+.cleanText__container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  border-right: 2px solid var(--primary-color);
+  justify-content: center;
+  margin-left: 4px;
+
+  padding: 0rem 5rem 4rem 3.2rem;
+}
+
+.cleanImg__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.cleanRestoreListItem {
+  display: flex;
+  gap: 10px;
+}
+
+.cleanRestoreListItem .service__text {
+  white-space: nowrap;
+}
+
+.stainRemoval {
+  position: relative;
+  left: 5px;
+}
+
+.qualityServices {
+  position: relative;
+  left: 11px;
+}
+.cleanSection {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.learnMoreBtn {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: white;
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  transform: translate(-49px, -88px);
+  z-index: 4;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.learnMoreBtn:hover {
+  background: var(--primary-color);
+  color: white;
+  transition: all 0.6s ease;
+}
+.cleanRestore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-top: 16rem;
+  margin-bottom: 10rem;
+}
+.restoreSection {
+  display: flex;
+  margin-top: -55.5px;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.restoreText__container {
+  display: flex;
+  flex-direction: column;
+  border-left: 2px solid var(--primary-color);
+  border-top: 2px solid var(--primary-color);
+  gap: 1.5rem;
+  margin-top: -75px;
+  padding: 3rem 3rem 0rem 5rem;
+}
+
+.restoreImg__container {
+  width: 500px;
+  height: 500px;
+  border-top: 2px solid var(--primary-color);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+.pointersTopRow {
+  display: flex;
+  gap: 30px;
+}
+.pointersBottomRow {
+  display: flex;
+  gap: 30px;
+}
+
+.mobileCleanRestore {
+  display: none;
+}

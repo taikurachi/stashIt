@@ -1,0 +1,47 @@
+.marketplace {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  height: 800px;
+}
+
+.content__btn .biggerBtn {
+  background: rgba(0, 0, 0, 0);
+  /* border: 2px solid var(--primary-color); */
+  color: var(--primary-color);
+  /* border-rad ius: 15px; */
+  border-radius: 3rem;
+  cursor: pointer;
+  /* border: none; */
+  padding: 25px 50px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  font-size: 2rem;
+  overflow: hidden;
+}
+
+.marketplaceImgContainer {
+  width: 90%;
+
+  position: absolute;
+  z-index: -3;
+  opacity: 0.15;
+  transform: translate(23px, -20px);
+}
+
+.marketplace .contentText__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.marketplaceText__container {
+  gap: 4rem;
+}
+.marketplaceIntro__text {
+  width: 650px;
+  text-align: center;
+}
