@@ -11,6 +11,10 @@ function mobileCheck() {
     menuLinks.classList.toggle("active");
     logo.classList.toggle("logo-white");
     body.classList.toggle("overflow");
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
   });
 
   //SCROLLER
