@@ -16,6 +16,8 @@
   font-family: "Outfit", sans-serif;
   color: #16181d;
   text-decoration: none;
+  border: none;
+  outline: none;
 }
 
 :root {
@@ -81,9 +83,8 @@ a {
 
 button.classic {
   background: white;
-  outline: 2px solid var(--primary-color);
+  border: 2px solid var(--primary-color);
   color: var(--primary-color);
-  border: none;
   border-radius: 3rem;
   cursor: pointer;
   padding: 20px;

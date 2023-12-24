@@ -11,6 +11,7 @@
   position: absolute;
   top: 40px;
   right: 5%;
+  z-index: 4;
 }
 
 .logo {

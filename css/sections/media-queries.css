@@ -74,7 +74,6 @@
   .navbar__menu {
     display: flex;
     flex-direction: column;
-    /* grid-template-columns: auto; */
     margin: 0;
     width: 100%;
     position: absolute;
@@ -82,9 +81,8 @@
     opacity: 1;
     transition: all 0.5s ease;
     height: 100vh;
-    /* z-index: -1; */
     background: #16181d;
-    /* border: 2px solid yellow; */
+
     padding: 4rem;
     gap: 0;
   }
@@ -95,7 +93,6 @@
     top: 0%;
     opacity: 1;
     transition: all 0.5;
-    z-index: -1;
     height: 100vh;
   }
 
@@ -108,7 +105,6 @@
     height: 3px;
     margin: 5px auto;
     transition: all 0.3s ease-in-out;
-    /* background: white; */
     background-color: #16181d;
   }
 
@@ -156,6 +152,7 @@
     top: 20%;
     right: calc(3% + 23px);
     transform: translate(5%, 30%);
+    z-index: 4;
   }
 
   .logo {
