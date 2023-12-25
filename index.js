@@ -40,9 +40,8 @@ function mobileCheck() {
       });
     });
   }
+  addAnimation();
 }
-
-addAnimation();
 
 mobileCheck();
 
