@@ -102,6 +102,9 @@
     font-size: 0.67rem;
   }
 
+  .intro__text.mobileIntro__text {
+    font-size: 1.3rem;
+  }
   .mobileTopSection {
     display: flex;
     justify-content: center;
@@ -123,5 +126,11 @@
     transform: translateY(60px);
     transition: transform 0.5s;
     opacity: 0;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .body .content.mobileContent {
+    margin: 4rem 0rem 0rem 0rem;
   }
 }
