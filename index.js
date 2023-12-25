@@ -20,10 +20,12 @@ function mobileCheck() {
   //SCROLLER
   const scrollers = document.querySelectorAll(".scroller");
   if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    console.log("this is working");
     addAnimation();
   }
 
   function addAnimation() {
+    console.log("add animation is working");
     scrollers.forEach((scroller) => {
       scroller.setAttribute("data-animated", true);
 
@@ -32,7 +34,6 @@ function mobileCheck() {
 
       scrollerContent.forEach((item) => {
         const duplicatedItem = item.cloneNode(true);
-        // console.log(duplicatedItem);
         duplicatedItem.setAttribute("aria-hidden", true);
         duplicatedItem.classList.add("addedImg");
         scrollerInner.appendChild(duplicatedItem);
