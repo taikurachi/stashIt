@@ -3,6 +3,11 @@
     gap: var(--nav-gap);
   }
 }
+@media screen and (min-width: 1440px) {
+  .contentText__container .section__header {
+    font-size: 7rem;
+  }
+}
 
 @media screen and (max-width: 1330px) {
   body .navbar {
@@ -25,6 +30,10 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .content__container .img__container {
+    width: 100%;
+  }
+
   .hero {
     height: 700px;
   }
@@ -284,7 +293,7 @@
   .services.mobileServices {
     font-size: calc(10vw);
     letter-spacing: 6px;
-    margin: 0;
+    margin: -5rem 0 0 0;
     display: flex;
     justify-content: center;
     padding: 4rem;
@@ -295,6 +304,7 @@
   }
   .img__container.mobileContentImgContainer {
     display: block;
+    width: 100%;
   }
 
   .desktopContentImgContainer.img__container {
@@ -303,11 +313,16 @@
 
   .consign .consignText__container {
     transform: none;
+    width: 70%;
   }
   .consign.content__container {
-    margin-top: -3rem;
+    /* margin-top: -3rem; */
   }
 
+  .storageText__container {
+    transform: translate(0);
+    width: 80%;
+  }
   .storageBtn {
     /* transform: translateY(-30px); */
     position: relative;
@@ -321,7 +336,7 @@
     width: 350px;
   }
   .section__header.marketplaceHeader {
-    font-size: 70px;
+    font-size: 13vw;
     font-weight: 700;
     letter-spacing: 8px;
   }
@@ -350,23 +365,24 @@
     overflow: hidden;
   }
   .marketplaceImgContainer {
-    /* display: none; */
+    display: none;
     /* position: absolute; */
     /* width: 500px; */
     /* margin-top: -100px; */
-    z-index: -3;
+    /* z-index: -3; */
   }
-  .content {
+  .mobileContent.content {
     display: flex;
     flex-direction: column;
-    gap: 9rem;
+    gap: 6rem;
     letter-spacing: 1.5px;
     justify-content: center;
     align-items: center;
   }
 
   .marketplace {
-    margin-top: -200px;
+    /* margin-top: -200px; */
+    height: auto;
   }
 
   .tradingBtn {
@@ -374,11 +390,15 @@
     position: relative;
     top: -55px;
   }
+  .trading .tradingText__container {
+    width: 80%;
+  }
   .content .trading {
     left: 0;
+    margin-top: 50px;
   }
   .cleanRestore.mobileCleanRestore {
-    margin-top: -90px;
+    margin-top: -120px;
   }
   .biggerBtn {
     /* transform: translateY(-150px); */
@@ -391,21 +411,24 @@
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    margin: 50px;
+  }
+  .content__container .flexItem {
+    width: 40%;
+    height: 100%;
   }
   .line {
     text-align: center !important;
   }
 
   .section__header.mobileSection__header {
-    font-size: 65px;
+    font-size: 13vw;
     font-weight: 700;
   }
 
   .intro__text.mobileIntro__text {
-    font-size: 16px;
+    font-size: 3vw;
     /* font-size: 9vw; */
-    font-weight: 600;
+    font-weight: 500;
   }
 
   .classic {
@@ -464,8 +487,9 @@
     /* transform: translate(-60px); */
     transform: rotate(90deg);
   }
-  .cleanRestoreImg__container {
-    height: 350px;
+  .img__container.cleanRestoreImg__container {
+    /* height: 350px; */
+    width: 100%;
   }
   .cleanRestoreImgMobile {
     width: 400px;
@@ -474,7 +498,7 @@
 
   /* NEWSLETTER */
   .newsletter {
-    padding: 0 0 3rem 0;
+    /* padding: 0 0 3rem 0; */
     margin-top: 0px;
   }
 
@@ -601,130 +625,5 @@
     transform: translateY(90px);
     transition: transform 0.5s;
     opacity: 0;
-  }
-}
-
-@media screen and (max-width: 470px) {
-  body {
-    overflow-x: hidden;
-  }
-  .content {
-    gap: 2rem;
-  }
-
-  .storage.content__container {
-    margin-top: 10rem;
-  }
-  .services.mobileServices {
-    display: none;
-  }
-  .newsletter {
-    margin-top: 85px;
-  }
-
-  .trading .tradingText__container .section__header {
-    transform: translateX(6px);
-  }
-  .consignIntroText {
-    width: 350px;
-  }
-  .cleanRestoreImgMobile {
-    width: 300px;
-    margin-top: 13px;
-  }
-  .navbar__menu {
-    gap: 3rem;
-  }
-  .navbar__links {
-    font-size: 40px;
-  }
-
-  .navbar__item {
-    height: 30px;
-  }
-  .intro__text.mobileIntro__text {
-    font-size: 15px;
-
-    font-weight: 600;
-  }
-
-  .img__container .content__images {
-    width: 300px;
-  }
-
-  .newsletter .intro__text {
-    font-size: 1rem;
-  }
-  .section__header.marketplaceHeader {
-    font-size: 50px;
-    font-weight: 700;
-    letter-spacing: 4px;
-  }
-  .marketplaceText__container .img__container.mobileContentImgContainer {
-    padding: 2.5rem;
-  }
-  .marketplaceText__container {
-    gap: 2.5rem;
-  }
-  .marketplaceIntro__text {
-    width: 350px;
-    position: relative;
-    top: -15px;
-  }
-  .cleanRestoreImg__container {
-    height: 275px;
-  }
-  .newsletter .section__header {
-    font-size: 3rem;
-  }
-  .email__form .classic {
-    padding: 10px 20px;
-    font-size: 15px;
-    font-weight: 500;
-    border: none;
-    border-radius: 2rem;
-    white-space: nowrap;
-  }
-  .email__form {
-    min-width: 300px;
-    margin-top: 40px;
-    padding: 24px 24px 24px 24px;
-    display: flex;
-    border-radius: 46px;
-    gap: 1rem;
-    border: 1px solid var(--primary-color);
-  }
-  .email__form input::placeholder {
-    letter-spacing: 1.5px;
-    font-size: 0.67rem;
-  }
-
-  .mobileTopSection {
-    display: flex;
-    justify-content: center;
-  }
-  .mobileFooter__container {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 4rem;
-    padding-top: 3rem;
-  }
-  .company__container .p__container {
-    font-size: 10px;
-  }
-  .getInTouch .p__container {
-    font-size: 10px;
-  }
-  .char {
-    transform: translateY(60px);
-    transition: transform 0.5s;
-    opacity: 0;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .contentText__container .section__header {
-    font-size: 7rem;
   }
 }

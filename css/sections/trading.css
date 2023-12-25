@@ -1,20 +1,19 @@
 .trading {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.trading {
-  position: relative;
-  left: 40px;
+  gap: 4rem;
 }
 
 .tradingText__container {
-  transform: translateY(-30px);
+  /* transform: translateY(-30px); */
+  width: 50%;
 }
-.tradingIntro__text {
-  margin-left: 5px;
+.intro__text.tradingIntro__text {
+  /* margin-left: 5px; */
+  width: 100%;
 }
 .tradingImg {
-  transform: translateX(-40px);
+  /* transform: translateX(-40px); */
 }

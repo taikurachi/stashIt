@@ -1,0 +1,128 @@
+@media screen and (max-width: 470px) {
+  body {
+    /* overflow-x: hidden; */
+  }
+  .mobileContent.content {
+    gap: 1rem;
+  }
+
+  .content__container .flexItem {
+    width: 90%;
+    height: 100%;
+  }
+
+  .storage.content__container {
+    /* margin: 10rem 0rem 10rem 0rem; */
+    /* margin-top: 10rem; */
+  }
+  .services.mobileServices {
+    /* display: none; */
+    padding: 2rem;
+    margin: -1rem 0 0 0;
+  }
+  .newsletter {
+    /* margin-top: 85px; */
+  }
+
+  .trading .tradingText__container .section__header {
+    transform: translateX(6px);
+  }
+  .consignIntroText {
+    width: 350px;
+  }
+  .consignText__container {
+    margin-left: 0;
+  }
+  .cleanRestoreImgMobile {
+    width: 300px;
+    margin-top: 13px;
+  }
+  .navbar__menu {
+    gap: 3rem;
+  }
+  .navbar__links {
+    font-size: 40px;
+  }
+
+  .navbar__item {
+    height: 30px;
+  }
+  .intro__text.mobileIntro__text {
+    font-size: 15px;
+
+    font-weight: 600;
+  }
+
+  .img__container .content__images {
+    width: 300px;
+  }
+
+  .newsletter .intro__text {
+    font-size: 1rem;
+  }
+  .section__header.marketplaceHeader {
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 4px;
+  }
+  .marketplaceText__container .img__container.mobileContentImgContainer {
+    padding: 2.5rem;
+  }
+  .marketplaceText__container {
+    gap: 2.5rem;
+  }
+  .marketplaceIntro__text {
+    width: 350px;
+    position: relative;
+    top: -15px;
+  }
+  .cleanRestoreImg__container {
+    height: 275px;
+  }
+  .newsletter .section__header {
+    font-size: 3rem;
+  }
+  .email__form .classic {
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 2rem;
+    white-space: nowrap;
+  }
+  .email__form {
+    min-width: 300px;
+    margin-top: 40px;
+    padding: 24px 24px 24px 24px;
+    display: flex;
+    border-radius: 46px;
+    gap: 1rem;
+    border: 1px solid var(--primary-color);
+  }
+  .email__form input::placeholder {
+    letter-spacing: 1.5px;
+    font-size: 0.67rem;
+  }
+
+  .mobileTopSection {
+    display: flex;
+    justify-content: center;
+  }
+  .mobileFooter__container {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding-top: 3rem;
+  }
+  .company__container .p__container {
+    font-size: 10px;
+  }
+  .getInTouch .p__container {
+    font-size: 10px;
+  }
+  .char {
+    transform: translateY(60px);
+    transition: transform 0.5s;
+    opacity: 0;
+  }
+}
