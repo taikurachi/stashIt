@@ -104,7 +104,7 @@
   flex-direction: column;
   gap: 1.2rem;
   margin-top: 16rem;
-  margin-bottom: 10rem;
+  /* margin-bottom: 10rem; */
 }
 .restoreSection {
   display: flex;
@@ -146,4 +146,12 @@
 
 .mobileCleanRestore {
   display: none;
+}
+
+.intro__text.cleanIntro__text {
+  width: 400px;
+}
+
+.intro__text.restoreIntro__text {
+  width: 400px;
 }

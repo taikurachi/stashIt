@@ -7,9 +7,9 @@
 }
 
 .logo__container {
-  width: 100px;
+  width: 140px;
   position: absolute;
-  top: 40px;
+  top: 37px;
   right: 5%;
   z-index: 4;
 }

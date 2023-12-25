@@ -27,6 +27,36 @@
   .intro__text {
     font-size: 1rem;
   }
+
+  .intro__text.restoreIntro__text {
+    width: 450px;
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .content.mobileContent {
+    gap: 20rem;
+    margin: 8rem 8rem 0rem 8rem;
+  }
+  .marketplace {
+    margin-top: -5rem;
+  }
+  .cleanRestore {
+    margin-top: 3rem;
+  }
+
+  .intro__text.restoreIntro__text {
+    width: 100%;
+    font-size: 1.2rem;
+  }
+
+  .cleanRestorePointers {
+    font-size: 0.9rem;
+  }
+  .intro__text.cleanIntro__text {
+    font-size: 1.2rem;
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -53,6 +83,10 @@
   .hero .desktopSection {
     display: none;
   }
+  .content.mobileContent {
+    gap: 20rem;
+    margin: 8rem 4rem 0rem 4rem;
+  }
 
   body {
     overflow-x: hidden;
@@ -70,7 +104,7 @@
   }
 
   .navbar .logo__container {
-    width: 100px;
+    /* width: 100px; */
     top: -5px;
     right: 25px;
 
@@ -310,6 +344,9 @@
   .desktopContentImgContainer.img__container {
     display: none;
   }
+  .img__container .content__images.mobileConsignImg {
+    width: 450px;
+  }
 
   .consign .consignText__container {
     transform: none;
@@ -346,6 +383,9 @@
     /* transform: translateY(-75px); */
     position: relative;
     top: -75px;
+  }
+  .flexColumn .content__btn {
+    margin-top: 0;
   }
 
   .content__btn .biggerBtn {
@@ -398,7 +438,7 @@
     margin-top: 50px;
   }
   .cleanRestore.mobileCleanRestore {
-    margin-top: -120px;
+    margin-top: -50px;
   }
   .biggerBtn {
     /* transform: translateY(-150px); */
@@ -421,14 +461,19 @@
   }
 
   .section__header.mobileSection__header {
-    font-size: 13vw;
+    font-size: 12vw;
     font-weight: 700;
   }
 
   .intro__text.mobileIntro__text {
-    font-size: 3vw;
+    font-size: 2.6vw;
     /* font-size: 9vw; */
     font-weight: 500;
+  }
+
+  .content__btn .classic {
+    padding: 30px 50px 30px 50px;
+    font-size: 1.8rem;
   }
 
   .classic {
@@ -500,6 +545,7 @@
   .newsletter {
     /* padding: 0 0 3rem 0; */
     margin-top: 0px;
+    padding: 8rem 0rem 8rem 0rem;
   }
 
   .newsletter .intro__text {
@@ -625,5 +671,17 @@
     transform: translateY(90px);
     transition: transform 0.5s;
     opacity: 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .content.mobileContent {
+    gap: 4rem;
+    margin: 4rem 4rem 0rem 4rem;
+  }
+
+  .newsletter.flexColumn {
+    margin-top: 70px;
+    padding: 0rem 0rem 3rem 0rem;
   }
 }

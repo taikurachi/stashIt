@@ -9,12 +9,12 @@ a {
 .content {
   display: flex;
   flex-direction: column;
-  gap: 10rem;
+  gap: 15rem;
   letter-spacing: 1.5px;
   justify-content: center;
   align-items: center;
   /* border: 2px solid red; */
-  margin: 0rem 8rem 0rem 8rem;
+  margin: 4rem 8rem 0rem 8rem;
 }
 
 .content__container {
