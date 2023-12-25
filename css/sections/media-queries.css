@@ -107,7 +107,7 @@
     margin: 8rem 4rem 0rem 4rem;
   }
 
-  body {
+  .body {
     overflow-x: hidden;
   }
   .navbar .navbar__container {
@@ -269,7 +269,7 @@
   .scroller[data-animated="true"] .scroller-inner {
     width: fit-content;
     flex-wrap: nowrap;
-    animation: scroll var(--_animation-duration, 20s)
+    animation: scroll var(--_animation-duration, 10s)
       var(--_animation-direction, forwards) linear infinite;
   }
 
@@ -713,6 +713,12 @@
 @media screen and (max-width: 700px) {
   .content__btn .classic {
     padding: 20px 20px 20px 20px;
+  }
+
+  html,
+  .body {
+    width: 100%;
+    overflow-x: hidden;
   }
 }
 

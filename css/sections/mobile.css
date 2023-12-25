@@ -46,11 +46,6 @@
   .navbar__item {
     height: 30px;
   }
-  .intro__text.mobileIntro__text {
-    /* font-size: 15px; */
-
-    font-weight: 600;
-  }
 
   .img__container .content__images {
     /* width: 300px; */
@@ -127,6 +122,9 @@
     transition: transform 0.5s;
     opacity: 0;
   }
+  .intro__text.intro__text.mobileIntro__text {
+    font-weight: 400;
+  }
 }
 
 @media screen and (max-width: 430px) {
@@ -134,12 +132,12 @@
     margin: 4rem 0rem 0rem 0rem;
   }
 
-  .intro__text.intro__text.mobileIntro__text {
-    font-weight: 400;
-  }
-
   .section__header.mobileSection__header {
     font-size: 4.5rem;
     font-weight: 700;
+  }
+
+  .content__images.marketplaceImg {
+    width: 90%;
   }
 }
