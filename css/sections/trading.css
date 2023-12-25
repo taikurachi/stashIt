@@ -7,13 +7,11 @@
 }
 
 .tradingText__container {
-  /* transform: translateY(-30px); */
+
   width: 50%;
 }
 .intro__text.tradingIntro__text {
-  /* margin-left: 5px; */
+
   width: 100%;
 }
-.tradingImg {
-  /* transform: translateX(-40px); */
-}
+

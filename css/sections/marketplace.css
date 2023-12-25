@@ -8,12 +8,12 @@
 
 .content__btn .biggerBtn {
   background: rgba(0, 0, 0, 0);
-  /* border: 2px solid var(--primary-color); */
+
   color: var(--primary-color);
-  /* border-rad ius: 15px; */
+
   border-radius: 3rem;
   cursor: pointer;
-  /* border: none; */
+
   padding: 25px 50px;
   font-weight: 600;
   letter-spacing: 1.5px;

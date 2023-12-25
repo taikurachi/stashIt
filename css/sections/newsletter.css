@@ -5,9 +5,9 @@
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  /* padding: 0rem 0rem 8rem 0rem; */
+
   padding-bottom: 12rem;
-  /* margin: -5rem 3rem 3rem 3rem; */
+
 }
 .newsletter .intro__text {
   margin-top: 20px;
