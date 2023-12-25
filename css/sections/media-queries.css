@@ -2,6 +2,18 @@
   .navbar__menu {
     gap: var(--nav-gap);
   }
+
+  .content .section__header {
+    font-size: 7rem;
+  }
+
+  .hero__text {
+    font-size: 8rem;
+  }
+
+  .services {
+    font-size: 8rem;
+  }
 }
 @media screen and (min-width: 1440px) {
   .contentText__container .section__header {
@@ -40,10 +52,10 @@
     margin: 8rem 8rem 0rem 8rem;
   }
   .marketplace {
-    margin-top: -5rem;
+    height: 450px;
   }
   .cleanRestore {
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
   }
 
   .intro__text.restoreIntro__text {
@@ -57,11 +69,18 @@
   .intro__text.cleanIntro__text {
     font-size: 1.2rem;
   }
+  .newsletter {
+    margin-top: -10rem;
+  }
 }
 
 @media screen and (max-width: 1000px) {
   .content__container .img__container {
     width: 100%;
+  }
+
+  .contentText__container.flexColumn {
+    gap: 3rem;
   }
 
   .hero {
@@ -345,7 +364,8 @@
     display: none;
   }
   .img__container .content__images.mobileConsignImg {
-    width: 450px;
+    /* width: 450px; */
+    width: 90%;
   }
 
   .consign .consignText__container {
@@ -363,7 +383,7 @@
   .storageBtn {
     /* transform: translateY(-30px); */
     position: relative;
-    top: -40px;
+    /* top: -40px; */
   }
 
   .marketplace {
@@ -379,10 +399,10 @@
   }
   .marketplaceImg {
     /* width: 100%; */
-    width: 600px;
+
     /* transform: translateY(-75px); */
     position: relative;
-    top: -75px;
+    /* top: -75px; */
   }
   .flexColumn .content__btn {
     margin-top: 0;
@@ -397,7 +417,6 @@
     cursor: pointer;
     /* border: none; */
     position: relative;
-    top: -150px;
     padding: 20px;
     font-weight: 600;
     letter-spacing: 1.5px;
@@ -414,7 +433,7 @@
   .mobileContent.content {
     display: flex;
     flex-direction: column;
-    gap: 6rem;
+    gap: 14rem;
     letter-spacing: 1.5px;
     justify-content: center;
     align-items: center;
@@ -428,17 +447,16 @@
   .tradingBtn {
     /* transform: translateY(-50px); */
     position: relative;
-    top: -55px;
+    /* top: -55px; */
   }
   .trading .tradingText__container {
     width: 80%;
   }
   .content .trading {
     left: 0;
-    margin-top: 50px;
   }
   .cleanRestore.mobileCleanRestore {
-    margin-top: -50px;
+    /* margin-top: -50px; */
   }
   .biggerBtn {
     /* transform: translateY(-150px); */
@@ -450,7 +468,7 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
   }
   .content__container .flexItem {
     width: 40%;
@@ -545,7 +563,8 @@
   .newsletter {
     /* padding: 0 0 3rem 0; */
     margin-top: 0px;
-    padding: 8rem 0rem 8rem 0rem;
+    padding-bottom: 8rem;
+    /* padding: 8rem 0rem 8rem 0rem; */
   }
 
   .newsletter .intro__text {
@@ -676,12 +695,34 @@
 
 @media screen and (max-width: 800px) {
   .content.mobileContent {
-    gap: 4rem;
+    gap: 8rem;
     margin: 4rem 4rem 0rem 4rem;
   }
 
   .newsletter.flexColumn {
-    margin-top: 70px;
+    /* margin-top: 70px; */
     padding: 0rem 0rem 3rem 0rem;
+  }
+
+  .comingSoon {
+    position: relative;
+    top: 20px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .content__btn .classic {
+    padding: 20px 20px 20px 20px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .content__btn .classic {
+    padding: 10px 10px 10px 10px;
+    font-size: 1rem;
+  }
+
+  .contentText__container.flexColumn {
+    gap: 1.5rem;
   }
 }

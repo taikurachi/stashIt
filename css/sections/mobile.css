@@ -1,9 +1,6 @@
 @media screen and (max-width: 470px) {
-  body {
-    /* overflow-x: hidden; */
-  }
   .mobileContent.content {
-    gap: 1rem;
+    /* gap: 1rem; */
   }
 
   .content__container .flexItem {
@@ -23,7 +20,9 @@
   .newsletter {
     /* margin-top: 85px; */
   }
-
+  .body .content.mobileContent {
+    margin: 4rem 2rem 0rem 2rem;
+  }
   .trading .tradingText__container .section__header {
     transform: translateX(6px);
   }
@@ -48,13 +47,13 @@
     height: 30px;
   }
   .intro__text.mobileIntro__text {
-    font-size: 15px;
+    /* font-size: 15px; */
 
     font-weight: 600;
   }
 
   .img__container .content__images {
-    width: 300px;
+    /* width: 300px; */
   }
 
   .newsletter .intro__text {
@@ -66,7 +65,7 @@
     letter-spacing: 4px;
   }
   .marketplaceText__container .img__container.mobileContentImgContainer {
-    padding: 2.5rem;
+    /* padding: 2.5rem; */
   }
   .marketplaceText__container {
     gap: 2.5rem;
