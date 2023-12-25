@@ -74,56 +74,58 @@ setTimeout(() => {
   });
 }, 3500);
 
-//scroll animation using scrollReveal
-ScrollReveal({ reset: false, distance: "60px", duration: 2500, delay: 400 });
+if (window.innerWidth > 500) {
+  //scroll animation using scrollReveal
+  ScrollReveal({ reset: false, distance: "60px", duration: 2500, delay: 400 });
 
-ScrollReveal().reveal(".services", { delay: 200, origin: "left" });
-ScrollReveal().reveal(".section__header", {
-  delay: 400,
-  origin: "top",
-});
-ScrollReveal().reveal(".intro__text", {
-  delay: 200,
-  origin: "right",
-});
-ScrollReveal().reveal(".classic", {
-  delay: 200,
-  origin: "bottom",
-});
-ScrollReveal().reveal(".content__images", {
-  delay: 200,
-  origin: "bottom",
-});
-ScrollReveal().reveal(".classic", {
-  delay: 200,
-  origin: "bottom",
-});
-ScrollReveal().reveal(".comingSoon", {
-  delay: 100,
-  origin: "left",
-});
-ScrollReveal().reveal(".cleanRestorePointers", {
-  delay: 300,
-  origin: "bottom",
-});
-ScrollReveal().reveal(".cleanImg", {
-  delay: 400,
-  origin: "right",
-});
+  ScrollReveal().reveal(".services", { delay: 200, origin: "left" });
+  ScrollReveal().reveal(".section__header", {
+    delay: 400,
+    origin: "top",
+  });
+  ScrollReveal().reveal(".intro__text", {
+    delay: 200,
+    origin: "right",
+  });
+  ScrollReveal().reveal(".classic", {
+    delay: 200,
+    origin: "bottom",
+  });
+  ScrollReveal().reveal(".content__images", {
+    delay: 200,
+    origin: "bottom",
+  });
+  ScrollReveal().reveal(".classic", {
+    delay: 200,
+    origin: "bottom",
+  });
+  ScrollReveal().reveal(".comingSoon", {
+    delay: 100,
+    origin: "left",
+  });
+  ScrollReveal().reveal(".cleanRestorePointers", {
+    delay: 300,
+    origin: "bottom",
+  });
+  ScrollReveal().reveal(".cleanImg", {
+    delay: 400,
+    origin: "right",
+  });
 
-ScrollReveal().reveal(".restoreImg", {
-  delay: 400,
-  origin: "left",
-});
-ScrollReveal().reveal(".verticalLine", {
-  delay: 200,
-  origin: "bottom",
-});
-ScrollReveal().reveal(".cleanRestoreImgMobile", {
-  delay: 200,
-  origin: "left",
-});
-ScrollReveal().reveal(".email__form", {
-  delay: 250,
-  origin: "bottom",
-});
+  ScrollReveal().reveal(".restoreImg", {
+    delay: 400,
+    origin: "left",
+  });
+  ScrollReveal().reveal(".verticalLine", {
+    delay: 200,
+    origin: "bottom",
+  });
+  ScrollReveal().reveal(".cleanRestoreImgMobile", {
+    delay: 200,
+    origin: "left",
+  });
+  ScrollReveal().reveal(".email__form", {
+    delay: 250,
+    origin: "bottom",
+  });
+}
