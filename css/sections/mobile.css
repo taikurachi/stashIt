@@ -133,4 +133,13 @@
   .body .content.mobileContent {
     margin: 4rem 0rem 0rem 0rem;
   }
+
+  .intro__text.intro__text.mobileIntro__text {
+    font-weight: 400;
+  }
+
+  .section__header.mobileSection__header {
+    font-size: 4.5rem;
+    font-weight: 700;
+  }
 }
