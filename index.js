@@ -19,10 +19,10 @@ function mobileCheck() {
 
   //SCROLLER
   const scrollers = document.querySelectorAll(".scroller");
-  if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-    console.log("this is working");
-    addAnimation();
-  }
+  // if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+  //   console.log("this is working");
+  //   addAnimation();
+  // }
 
   function addAnimation() {
     console.log("add animation is working");
@@ -41,6 +41,8 @@ function mobileCheck() {
     });
   }
 }
+
+addAnimation();
 
 mobileCheck();
 
