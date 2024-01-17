@@ -103,6 +103,10 @@ if (window.innerWidth > 500) {
     delay: 100,
     origin: "left",
   });
+  ScrollReveal().reveal(".consignImg", {
+    delay: 100,
+    origin: "left",
+  });
   ScrollReveal().reveal(".cleanRestorePointers", {
     delay: 300,
     origin: "bottom",

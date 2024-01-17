@@ -47,15 +47,13 @@ a {
   font-size: calc(7vw + 3px);
   font-weight: 700;
   letter-spacing: 10px;
-
-  
 }
 
 .service__text {
   margin-top: 2px;
 }
 
-button.classic {
+p.classic {
   background: white;
   border: 2px solid var(--primary-color);
   color: var(--primary-color);
@@ -66,6 +64,8 @@ button.classic {
   letter-spacing: 1.5px;
   font-size: 1.4rem;
   overflow: hidden;
+  width: min-content;
+  white-space: nowrap;
 }
 
 .classic::after {
